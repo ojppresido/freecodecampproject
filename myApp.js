@@ -1,4 +1,5 @@
 const helment = require('helmet');
+helmet.hidePoweredBy()
 const express = require('express');
 const app = express();
 
