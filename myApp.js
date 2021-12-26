@@ -2,7 +2,7 @@ const helment = require('helmet');
 const express = require('express');
 const app = express();
 
-app.disable('x-powered-by');
+app.use(helmet.hidePoweredBy());
 
 
 
